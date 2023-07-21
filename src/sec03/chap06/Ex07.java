@@ -51,7 +51,7 @@ public class Ex07 {
     //String str_c5 = "ABC".concat(str_c1);
 
     //  4. ⭐️ 다중 연산시 생성되는 문자열 인스턴스의 수가 다름
-
+    // 성능은 concat보다 + 가 좋음
     String str_d1 = "a" + "b" + "c" + "d";
 
     // + 연산은 내부적으로 아래와 같이 최적화됨 (이후 배움)

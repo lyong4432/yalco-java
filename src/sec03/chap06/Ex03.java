@@ -19,12 +19,12 @@ public class Ex03 {
         //  앞에서부터 카운트해서 int로 반환
 
         //  두 번째 인자 : ~번째 이후/이전부터 셈
-        int int1 = str2.indexOf('얄');
-        int int2 = str2.indexOf('얄', 4);
+        int int1 = str2.indexOf('얄'); // 처음 등장한 위치
+        int int2 = str2.indexOf('얄', 4); // 4이후에 처음 나오는 위치
 
         int  int3 = str2.indexOf("얄라");
-        int  int4 = str2.lastIndexOf("얄라");
-        int  int5 = str2.lastIndexOf("얄라", 12);
+        int  int4 = str2.lastIndexOf("얄라"); // 마지막으로 등장하는 위치
+        int  int5 = str2.lastIndexOf("얄라", 12); // 12 이전에서 마지막
 
         //  💡 포함되지 않은 문자는 -1 반환
         int int6 = str2.indexOf('욜');

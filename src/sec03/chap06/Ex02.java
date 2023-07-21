@@ -17,6 +17,8 @@ public class Ex02 {
         boolean bool3 = str1.isBlank();
         boolean bool4 = str2.isBlank();
 
+        // isEmpty가 더 엄격
+
         // 트리밍
         String str3 = "\t 에 네 르 기 파!! \n";
 
